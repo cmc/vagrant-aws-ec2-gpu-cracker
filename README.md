@@ -6,7 +6,7 @@ throws up a 4x beast cuda box w/ 32cores for password cracking, installs cuda dr
     #   GPU 1: GRID K520 (UUID: GPU-d96cf21c-0889-d238-f7d2-53c75dfb79ac)
     #   GPU 2: GRID K520 (UUID: GPU-523b46de-a687-e3f5-cce5-c12da76636c2)
     #   GPU 3: GRID K520 (UUID: GPU-082ddb09-6f7d-bb2d-cc9f-11f6fc6ff4cf)
-
+```
 Session.Name...: cudaHashcat
 Status.........: Running
 Input.Mode.....: Mask (?d?d?d?d?d?d?d) [7] (0.07%)
