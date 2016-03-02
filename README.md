@@ -1,5 +1,5 @@
 # vagrant-aws-ec2-gpu-cracker
-throws up a 4x beast cuda box w/ 32cores for password cracking, installs cuda drivers &amp; oclhashcat
+throws up a 4x beast cuda box on aws for password cracking, installs cuda drivers &amp; oclhashcat
 
     # nvidia-smi  -L
     #   GPU 0: GRID K520 (UUID: GPU-17f859aa-09ba-35ec-dbe7-268879cc441a)
