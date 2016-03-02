@@ -13,7 +13,7 @@ cd ~/cudaHashcat-2.01/
 # throw down the rockyou.txt for basic bruteforcing lulz. 
 wget http://downloads.skullsecurity.org/passwords/rockyou.txt.bz2
 bunzip2 rockyou.txt.bz2
-# echo ':$office$*2010*100000*128*16*ba32cef7705b48e08226c7115e0da7dc*f6a708c212401afd8da521b0eb205e43*53b95dd91a291b1ff3291a6db87fac0c7c7023c7630ba6233398f7eee1c5c573' > ~/cudaHashcat-2.01/hash
+# echo 'MYHASH' > ~/cudaHashcat-2.01/hash
 # ./cudaHashcat64.bin -a 3 -m 9500 -i --increment-min 5 --increment-max 8 --username --status -o lol hash ?l?l?l?l?l?l?l?l -1 ?dabcdefABCDEF
 echo "?d?d?d?d
 ?d?d?d?d?d
