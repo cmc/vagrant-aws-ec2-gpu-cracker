@@ -1,10 +1,10 @@
 sudo apt-get update && sudo apt-get -y upgrade
 sudo apt-get install -y linux-image-extra-`uname -r`
 sudo apt-get update
-sudo wget http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda-repo-ubuntu1404-7-5-local_7.5-18_amd64.deb -o cuda_wget.log -O /mnt/cuda.deb
+wget http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda-repo-ubuntu1404-7-5-local_7.5-18_amd64.deb -o cuda_wget.log -O /mnt/cuda.deb
 sudo dpkg -i /mnt/cuda.deb
 sudo apt-get update
-sudo apt-get install -y cuda htop p7zip-full
+sudo apt-get install cuda htop p7zip-full -y
 cd ~
 wget https://hashcat.net/files/cudaHashcat-2.01.7z
 7z x cudaHashcat-2.01.7z
